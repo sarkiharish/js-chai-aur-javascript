@@ -16,7 +16,7 @@ let vlaueInNumber = Number(score)
 
 let isLoggedIn = 1;
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn)
+// console.log(booleanIsLoggedIn)
 
 /*
 1 => true; 0 => false;
@@ -26,5 +26,28 @@ console.log(booleanIsLoggedIn)
 
 let someNumber = 18
 let stringNumber = String(someNumber)
-console.log(typeof stringNumber)
-console.log(stringNumber)
+// console.log(typeof stringNumber)
+// console.log(stringNumber)
+
+//************************************OPERATIONS  *********************************************************************/
+
+let value = 2
+let negValue = -value
+// console.log(negValue)
+
+str1 = "HELLO"
+str2 = " HARISH"
+str3 = str1 + str2
+// console.log(str3)
+
+// console.log("1" + 2) //12
+// console.log(1 + "2") //12
+// console.log("1" + 2 + 2) //122
+// console.log(1 + 2 + "2") //32
+
+//console.log(+true) //=> 1
+// console.log(+"") //=> 0
+
+let gameCounter = 100
+gameCounter++
+console.log(gameCounter);
