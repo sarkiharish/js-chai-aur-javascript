@@ -42,4 +42,32 @@ typeof array, object => obj / function
 
 */
 
-console.log(typeof myOBj)
+// console.log(typeof myOBj)
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/*
+MEMORY IN JAVASCRIPT:
+1.Stack => all the primitive types are stored => here copy of the variable is given
+2.Heap => Non primitive types are stored => here reference of the actual value is given
+
+*/
+
+let myName = "Harish"
+let anotherName = myName
+
+anotherName = "Hari"
+
+console.log(myName)
+console.log(anotherName)
+
+let userOne = {
+    email: 'hari@gmail.com',
+    upi: 'hari@okicici'
+}
+
+let userTwo = userOne
+userTwo.email='harish@gmail.com'
+
+console.log(userOne.email)
+console.log(userTwo.email)
